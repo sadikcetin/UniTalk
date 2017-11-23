@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="version">
+         <item>Release 1.0.0\n
+              -Offline message support\n
+              -New Chat Bubbles added\n
+              -Change Backgroung image feature added\n
+              -New smileys added
+        </item>
+        <item>Beta Version\n
+              -Create group feature added\n
+              -Group  chat feature added\n
+              -Notification support added\n
+              -Default user icon support added
+        </item>
+    </string-array>
+</resources>

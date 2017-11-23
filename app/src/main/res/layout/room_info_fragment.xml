@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true">
+
+            <ListView
+                android:id="@+id/memberListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/leaveButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/leave_room"
+                android:layout_marginTop="3dp"
+                android:layout_above="@id/memberListView"/>
+
+            <Button
+                android:id="@+id/removeButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/remove_room"
+                android:layout_marginTop="3dp"
+                android:layout_above="@id/leaveButton"/>
+
+            <Button
+                android:id="@+id/destroyButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/destroy_room"
+                android:layout_marginTop="3dp"
+                android:layout_above="@id/leaveButton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/addMemberButton"
+                android:layout_height="60dp"
+                android:text="@string/add_member"
+                android:layout_marginTop="3dp"
+                android:layout_above="@id/destroyButton"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

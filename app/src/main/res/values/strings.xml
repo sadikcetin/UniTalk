@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">UniTalk</string>
+
+    <string name="title_section1">Contacts</string>
+    <string name="title_section2">Convertions</string>
+    <string name="title_section3">Blank</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_main2">UniTalk</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_invite_friends">Invite Friends</string>
+    <string name="action_help">Help</string>
+    <string name="action_create_group">Create Group</string>
+
+    <string name="invite_message">Check out UniTalk IM for your smartphone! </string>
+
+    <string name="section_format">Hello World from SECTION: %1$d</string>
+    <string name="group_name">Group Name</string>
+    <string name="new_group">New Group</string>
+    <string name="message">Last Message</string>
+    <string name="time">14:53</string>
+    <string name="user">User</string>
+    <string name="country_code">+90</string>
+    <string name="use_unitalk">Let\'s Register UniTalk !</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="message_count">1</string>
+    <string name="coming_soon">Coming Soon...</string>
+    <string name="status">Online</string>
+    <string name="recommend_text">Recommend UniTalk to your friends</string>
+    <string name="button_invite">Invite</string>
+    <string name="feedback">Please Write Your Feedback!</string>
+    <string name="feedback_name">Your Name</string>
+    <string name="button_choose">Choose Image</string>
+    <string name="button_send_feedback">Send</string>
+    <string name="feedback_message">Feedback Message</string>
+    <string name="add_participants">Add Participants</string>
+    <string name="type_message">Type a message...</string>
+    <string name="group_members">Group members,...</string>
+    <string name="group_incoming_name">Sadik</string>
+    <string name="incoming_message">Incoming Message</string>
+    <string name="title_activity_change_log">ChangeLogActivity</string>
+    <string name="changelog">ChangeLog</string>
+    <string name="image_upload">image upload</string>
+    <string name="send_feedback">send feedback</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="leave_room">Leave This Room</string>
+    <string name="remove_room">Remove This Room</string>
+    <string name="destroy_room">Destroy This Room</string>
+    <string name="add_member">Add New Member(s)</string>
+    <string name="dialog_title">Caution</string>
+    <string name="dialog_message">Do you want to leave the room before removing this conversation?</string>
+    <string name="button_ok">Yes</string>
+    <string name="button_cancel">Cancel</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/bayrak"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="200sp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.30"
+            android:src="@drawable/ay_yildiz_beyaz"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="@string/recommend_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+        <EditText
+            android:id="@+id/invite_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/sent_bubble"
+            android:enabled="false"
+            android:gravity="top"
+            android:inputType="textShortMessage|textMultiLine"
+            android:minLines="2"
+            android:paddingBottom="5sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="20sp"
+            android:paddingTop="5sp"
+            android:textSize="15sp"
+            android:text="@string/invite_message"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="LabelFor,RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/invite_button"
+            android:drawablePadding="10dp"
+            android:text="@string/button_invite"
+            tools:ignore="ButtonStyle,ContentDescription"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conversation_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+
+    <ImageView
+
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/viewIcon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="7dp"
+        android:contentDescription=""
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:rowOrderPreserved="false"
+        android:id="@+id/gridLayout"
+        android:useDefaultMargins="true"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/user"
+            android:id="@+id/textViewUser"
+            android:layout_gravity="left"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/time"
+            android:includeFontPadding="false"
+            android:layout_gravity="right"
+            android:id="@+id/textViewTime"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/message"
+            android:layout_gravity="left"
+            android:id="@+id/textViewMessage"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewUnreadCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:includeFontPadding="false"
+            android:text="@string/message_count"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="gone" />
+    </GridLayout>
+
+</LinearLayout>
+

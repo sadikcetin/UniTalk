@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tr.org.uni_talk.ui.MainActivity">
+
+    <item
+        android:id="@+id/action_create_group"
+        android:orderInCategory="100"
+        android:title="@string/action_create_group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_invite"
+        android:orderInCategory="100"
+        android:title="@string/action_invite_friends"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never"
+        android:visible="true" />
+    <item
+        android:id="@+id/changelog"
+        android:orderInCategory="100"
+        android:title="ChangeLog"
+        app:showAsAction="never"
+        android:visible="true" />
+</menu>

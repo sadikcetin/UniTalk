@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:id="@+id/contactImageView"
+        android:src="@drawable/user_icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="7dp"
+        android:contentDescription=""
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:rowOrderPreserved="false"
+        android:id="@+id/contactGridLayout"
+        android:useDefaultMargins="true"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/user"
+            android:id="@+id/textViewGroupUser"
+            android:layout_gravity="left"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="RtlHardcoded"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/time"
+            android:includeFontPadding="false"
+            android:layout_gravity="right"
+            android:id="@+id/textViewContactType"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/message"
+            android:layout_gravity="left"
+            android:id="@+id/textViewGroupStatus"
+            tools:ignore="RtlHardcoded"
+            android:textSize="12sp" />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/bayrak"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="200sp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.30"
+
+            android:src="@drawable/ay_yildiz_beyaz"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryLight">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="@string/feedback"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/bubble"
+            android:gravity="left"
+            android:hint="@string/feedback_name"
+            android:inputType="textShortMessage|textMultiLine"
+            android:minLines="1"
+            android:paddingLeft="10sp"
+            android:paddingRight="20sp"
+            android:textColor="@color/black"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/opinion_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/bubble"
+            android:gravity="top"
+            android:hint="@string/feedback_message"
+            android:inputType="textShortMessage|textMultiLine"
+            android:minLines="3"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/black"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/image_select_button"
+                style="@style/AppTheme"
+                android:layout_width="55sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10sp"
+                android:background="@drawable/button_send_feedback_file"
+                android:contentDescription="@string/image_upload"
+                android:text="@string/button_choose"
+                tools:ignore="ButtonStyle,RtlHardcoded"
+                tools:targetApi="lollipop" />
+
+            <ImageButton
+                android:id="@+id/send_button"
+                style="@style/AppTheme"
+                android:layout_width="65sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/send_feedback_email_button"
+                android:contentDescription="@string/send_feedback"
+
+                tools:ignore="ButtonStyle,RtlHardcoded"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
